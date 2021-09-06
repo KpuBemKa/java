@@ -19,7 +19,7 @@ public class Persoana {
 	
 	void showData()
 	{
-		System.out.println("Numele: " + nume + "\nPrenumele: " + prenume + "\nInaltimea: " + inaltimea + "\nVarsta" + varsta);
+		System.out.println("-==============-\nNumele: " + nume + "\nPrenumele: " + prenume + "\nInaltimea: " + inaltimea + "\nVarsta: " + varsta);
 	}
 	
 	void setNume(String nume)
@@ -47,7 +47,7 @@ public class Persoana {
 		return this.nume;
 	}
 	
-	String Prenume()
+	String getPrenume()
 	{
 		return this.prenume;
 	}
