@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdc0ea9e-9f87-4dac-a20b-17f5fd429e7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Persoana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persoana.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +25,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -53,13 +52,42 @@
       <option name="presentableId" value="Default" />
       <updated>1630937582067</updated>
     </task>
+    <task id="LOCAL-00001" summary="finished lab 1">
+      <created>1630940565436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630940565436</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished lab 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lab 1" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="454" y="174" key="CommitChangelistDialog2" timestamp="1630940539415">
+    <state x="454" y="174" key="CommitChangelistDialog2" timestamp="1630940564546">
       <screen x="0" y="0" width="1600" height="1160" />
     </state>
-    <state x="454" y="174" key="CommitChangelistDialog2/0.0.1600.1160@0.0.1600.1160" timestamp="1630940539415" />
+    <state x="454" y="174" key="CommitChangelistDialog2/0.0.1600.1160@0.0.1600.1160" timestamp="1630940564546" />
+    <state x="580" y="321" key="FileChooserDialogImpl" timestamp="1630941452320">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="580" y="321" key="FileChooserDialogImpl/0.0.1600.1160@0.0.1600.1160" timestamp="1630941452320" />
     <state width="1556" height="321" key="GridCell.Tab.0.bottom" timestamp="1630940518569">
       <screen x="0" y="0" width="1600" height="1160" />
     </state>
@@ -76,9 +104,17 @@
       <screen x="0" y="0" width="1600" height="1160" />
     </state>
     <state width="1556" height="321" key="GridCell.Tab.0.right/0.0.1600.1160@0.0.1600.1160" timestamp="1630940518569" />
-    <state x="496" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1630938371013">
+    <state x="206" y="119" width="998" height="708" key="SettingsEditor" timestamp="1630941995836">
       <screen x="0" y="0" width="1600" height="1160" />
     </state>
-    <state x="496" y="404" key="com.intellij.ide.util.TipDialog/0.0.1600.1160@0.0.1600.1160" timestamp="1630938371013" />
+    <state x="206" y="119" width="998" height="708" key="SettingsEditor/0.0.1600.1160@0.0.1600.1160" timestamp="1630941995836" />
+    <state x="392" y="313" key="Vcs.Push.Dialog.v2" timestamp="1630940985648">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="392" y="313" key="Vcs.Push.Dialog.v2/0.0.1600.1160@0.0.1600.1160" timestamp="1630940985648" />
+    <state x="496" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1630941731959">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="496" y="404" key="com.intellij.ide.util.TipDialog/0.0.1600.1160@0.0.1600.1160" timestamp="1630941731959" />
   </component>
 </project>
