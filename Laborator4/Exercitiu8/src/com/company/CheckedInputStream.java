@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class CheckedInputStream extends FilterInputStream {
 
-    private Checksum cksum;
+    private final Checksum cksum;
 
     public CheckedInputStream(InputStream in, Checksum cksum) {
         super(in);

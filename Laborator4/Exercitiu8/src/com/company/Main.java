@@ -8,7 +8,6 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-
         Adler32 inChecker = new Adler32();
         Adler32 outChecker = new Adler32();
         CheckedInputStream in = null;
