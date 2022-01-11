@@ -1,0 +1,34 @@
+@startuml
+class com.angajat.AngajatCuSalariuFix {
+~ String nume
+~ double salariu
++ String getNume()
++ double getSalariu()
+}
+class com.company.Main {
++ {static} void main(String[])
+}
+interface com.angajat.IAngajat {
+~ String getNume()
+~ double getSalariu()
+}
+class com.angajat.AngajatCuOra {
+- String nume
+- double salariuOra
+- ArrayList<Double> oreLucrate
++ String getNume()
++ double getSalariu()
++ void adaugaOre(double)
++ void schimbaSalariuPeOra(double)
+}
+class com.company.Firma {
+- ArrayList<IAngajat> angajati
++ void angajeaza(IAngajat)
++ double salariuMediu()
++ void afiseazaAngajatii()
+}
+
+
+com.angajat.IAngajat <|.. com.angajat.AngajatCuSalariuFix
+com.angajat.IAngajat <|.. com.angajat.AngajatCuOra
+@enduml

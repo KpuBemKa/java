@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Amenzi:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Amenzi_jar</output-path>
+    <root id="archive" name="Amenzi.jar">
+      <element id="module-output" name="Amenzi" />
+    </root>
+  </artifact>
+</component>

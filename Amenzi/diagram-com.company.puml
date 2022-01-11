@@ -1,0 +1,56 @@
+@startuml
+class com.company.GestiuneAmenzi {
+~ ArrayList<IAmenda> amenzi
+~ void insertAmenda(IAmenda)
+~ double valoare(Strategie)
+}
+class com.company.AruncareaGunoiului {
+~ String CNP
+~ int factorZonal
++ String getCNP()
++ String getTipAmenda()
++ double getAmendaCost()
++ void printAmenda()
+}
+class com.strategii.CautaParcareaIlegala {
++ boolean conditie(IAmenda)
+}
+class com.company.ParcareaIlegala {
+~ String CNP
++ String getCNP()
++ String getTipAmenda()
++ double getAmendaCost()
++ void printAmenda()
+}
+class com.company.DistrugereaBunului {
+~ String CNP
+~ double valoareaBunului
++ String getCNP()
++ String getTipAmenda()
++ double getAmendaCost()
++ void printAmenda()
+}
+class com.strategii.CautaCNP {
+~ String CNP
++ boolean conditie(IAmenda)
+}
+interface com.strategii.Strategie {
+~ boolean conditie(IAmenda)
+}
+class com.company.Main {
++ {static} void main(String[])
+}
+interface com.company.IAmenda {
+~ String getCNP()
+~ String getTipAmenda()
+~ double getAmendaCost()
+~ void printAmenda()
+}
+
+
+com.company.IAmenda <|.. com.company.AruncareaGunoiului
+com.strategii.Strategie <|.. com.strategii.CautaParcareaIlegala
+com.company.IAmenda <|.. com.company.ParcareaIlegala
+com.company.IAmenda <|.. com.company.DistrugereaBunului
+com.strategii.Strategie <|.. com.strategii.CautaCNP
+@enduml

@@ -3,11 +3,9 @@ package com.company;
 public class PrintNameThread extends Thread{
     PrintNameThread(String name) {
         super(name);
+        start();
     }
 
-    // Override the run() method of the Thread class.
-    // This method gets executed when start() method
-    // is invoked.
     public void run() {
         System.out.println("run() method of the " + this.getName() + " thread is called" );
 

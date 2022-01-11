@@ -1,0 +1,34 @@
+@startuml
+class com.company.Produs {
+~ double pret
+~ String denumire
+~ String getProperties()
+}
+class com.company.Jucarie {
+~ int varstaMinima
+~ TVA pretTVA
+~ String getProperties()
+}
+interface com.company.TVA {
+~ double procentProdus
+~ double procentIT
+~ double getPretTVA()
+}
+class com.company.Calculator {
+~ String producator
+~ TVA pretTVA
+~ String getProperties()
+}
+class com.company.Aliment {
+~ int calorii
+~ String getProperties()
+}
+class com.company.Main {
++ {static} void main(String[])
+}
+
+
+com.company.Produs <|-- com.company.Jucarie
+com.company.Produs <|-- com.company.Calculator
+com.company.Produs <|-- com.company.Aliment
+@enduml

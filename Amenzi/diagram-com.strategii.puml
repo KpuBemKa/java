@@ -1,0 +1,16 @@
+@startuml
+class com.strategii.CautaParcareaIlegala {
++ boolean conditie(IAmenda)
+}
+class com.strategii.CautaCNP {
+~ String CNP
++ boolean conditie(IAmenda)
+}
+interface com.strategii.Strategie {
+~ boolean conditie(IAmenda)
+}
+
+
+com.strategii.Strategie <|.. com.strategii.CautaParcareaIlegala
+com.strategii.Strategie <|.. com.strategii.CautaCNP
+@enduml
